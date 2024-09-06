@@ -1,15 +1,15 @@
 #Task 2: Use inputs to ask the user what operation they want to perform, and what numbers they want to use.
 
-def addition(a, b):
+def add(a, b):
     return a + b
 
-def subtraction(a, b):
+def sub(a, b):
     return a - b
 
-def multiply(a, b):
+def multi(a, b):
     return a * b
 
-def division(a, b):
+def div(a, b):
     if b == 0:
         return "Error! Division by 0"
     return a / b
